@@ -13,7 +13,7 @@ app.use(cors());
 app.use(morgan("dev"));
 
 
-app.post("", jsonParser, urlEncoded, function (req, res, next) {
+app.post("/chatbot", jsonParser, urlEncoded, function (req, res, next) {
     const message = req.body.message;
     console.log("message" + message);
 
