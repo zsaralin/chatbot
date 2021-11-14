@@ -6,7 +6,7 @@ export default function App() {
   return (
       <div className="mainSection">
         <div className="heading">
-          TheDevBurger🍔
+          Conversation with Bot
         </div>
         <Chat />
       </div>
