@@ -10,7 +10,17 @@ var urlEncoded = bodyParser.urlencoded({ extended: true });
 
 app.use(cors());
 app.use(morgan("dev"));
-app.get("/")
+app.get('/', (req, res, next) => {
+
+    res.status(200).json({
+        status: 'success',
+        data: {
+            name: 'chatbot',
+            version: '0.1.0'
+        }
+    });
+
+});
 
 app.post("/chatbot", jsonParser, urlEncoded, function (req, res, next) {
     const message = req.body.message;
