@@ -14,7 +14,7 @@ const Chat = props => {
         };
 
         axios
-            .post("/chatbot", data)
+            .post("https://boiling-eyrie-16281.herokuapp.com/chatbot", data)
             .then(response => {
                 const responseData = {
                     text: response.data["message"]["fulfillmentText"] !== "" ? response.data["message"]["fulfillmentText"] : "Sorry, I can't get it. Can you please repeat once?",
