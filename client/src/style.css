@@ -1,11 +1,12 @@
 h1, p {
     font-family: Calibri, serif;
+    font-size: 14px;
 }
 
 .chatSection {
     margin: auto;
     font-family: Calibri, serif;
-    width: 50%;
+    width: 40%;
     height: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -36,7 +37,7 @@ h1, p {
 
 .messageInputField {
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 15px;
     font-family: Times New Roman, serif;
     outline:none;
     border-top-style: hidden;
@@ -64,9 +65,9 @@ h1, p {
 /* Message component styles here 👇 */
 .botCard {
     width: 80%;
-    border-bottom-right-radius: 30px 30px;
-    border-top-right-radius: 30px 30px;
-    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
     background-color: #D3D3D3;
     margin-left: 5px;
     color: black;
