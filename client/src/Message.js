@@ -7,12 +7,12 @@ const Message = ({ message }) => {
                 <div className="botCard">
                     <p
                         style={{
-                            paddingLeft: "16px",
-                            paddingRight: "10px",
-                            fontFamily: "Montserrat",
-                            paddingTop: "10px",
-                            paddingBottom: "10px",
-                            fontWeight: 700
+                            paddingLeft: "14px",
+                            paddingRight: "8px",
+                            fontFamily: "Helvetica",
+                            paddingTop: "8px",
+                            paddingBottom: "8px",
+                            fontWeight: 600
                         }}
                     >
                         {message.text}
@@ -22,10 +22,10 @@ const Message = ({ message }) => {
                 <div className="userCard">
                     <p
                         style={{
-                            paddingLeft: "16px",
-                            paddingRight: "10px",
-                            fontFamily: "Montserrat",
-                            fontWeight: 700
+                            paddingLeft: "12px",
+                            paddingRight: "8px",
+                            fontFamily: "Helvetica",
+                            fontWeight: 600
                         }}
                     >
                         {message.text}
