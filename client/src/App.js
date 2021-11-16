@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 import Chat from "./Chat"
-import mascot from './mascot2.png'
+import mascot from './mascot3.png'
 
 export default function App() {
   return (
       <div className="mainSection" >
-          <img style ={{height:'85px',marginBottom:'-20px', marginLeft: '47%'}} src={mascot} alt='mascot'/>
-          <div className="heading" style = {{fontFamily: 'Courier, serif', fontWeight: 'bold'}}>
+          <img style ={{height:'85px',display: 'block',marginLeft: 'auto',marginRight: 'auto',marginBottom:'-20px',  }} src={mascot} alt='mascot'/>
+          <div className="heading" style = {{fontFamily: 'Arial, serif', fontWeight: 'bold'}}>
           Conversation with Bot
         </div>
         <Chat />

@@ -46,13 +46,13 @@ const Chat = props => {
     };
 
     return (
-        <div className="chatSection" style = {{fontFamily: 'Helvetica'}}>
-            <div className="botContainer" style = {{fontFamily: 'Helvetica'}}>
-                <div className="messagesContainer" style = {{fontFamily: 'Helvetica'}}>
-                    <Messages messages={responses} style = {{fontFamily: 'Helvetica'}} />
+        <div className="chatSection" style = {{fontFamily: 'Arial'}}>
+            <div className="botContainer" style = {{fontFamily: 'Arial'}}>
+                <div className="messagesContainer" style = {{fontFamily: 'Arial'}}>
+                    <Messages messages={responses} style = {{fontFamily: 'Arial'}} />
                 </div>
                 {/*The input section is 👇*/}
-                <div className="inputSection" style = {{fontFamily: 'Helvetica'}}>
+                <div className="inputSection" style = {{fontFamily: 'Arial'}}>
                     <input
                         type="text"
                         value={currentMessage}

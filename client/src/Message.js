@@ -9,7 +9,7 @@ const Message = ({ message }) => {
                         style={{
                             paddingLeft: "14px",
                             paddingRight: "8px",
-                            fontFamily: "Helvetica",
+                            fontFamily: "Arial",
                             paddingTop: "8px",
                             paddingBottom: "8px",
                             fontWeight: 600
@@ -24,7 +24,7 @@ const Message = ({ message }) => {
                         style={{
                             paddingLeft: "12px",
                             paddingRight: "8px",
-                            fontFamily: "Helvetica",
+                            fontFamily: "Arial",
                             fontWeight: 600
                         }}
                     >
