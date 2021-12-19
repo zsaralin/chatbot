@@ -1,4 +1,4 @@
-# Chatbot
+# DialogFlow Chatbot made using NodeJS and React
 
 Rule-based chatbot that uses Google's DialogFlow for response generation. Created for a course project to study the impact of UI design on the human-chatbot interaction.
 
